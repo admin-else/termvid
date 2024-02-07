@@ -21,7 +21,7 @@ setup(
     install_requires=requirements,
     entry_points={
         'console_scripts': [
-            'termvid=termvid.py:main'
+            'termvid=termvid.termvid:main'
         ],
     },
 )
